@@ -1,0 +1,14 @@
+public class MinimaNode {
+    public static void main(String[] args) {
+        // Set the configuration parameters
+        String minimaDir = "/path/to/minima/directory";
+        String ipAddress = "127.0.0.1";
+        int port = 9001;
+        
+        // Create a new instance of the Minima client
+        MinimaClient minimaClient = new MinimaClient(minimaDir, ipAddress, port);
+        
+        // Start the Minima client
+        minimaClient.start();
+    }
+}
